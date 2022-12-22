@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const product = require('./api/product')
 
 
-const PORT = process.env.port || 8050;
+const PORT = 9050;
 
 app.set("view engine","hbs")
 
